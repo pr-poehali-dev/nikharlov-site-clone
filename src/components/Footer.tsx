@@ -45,10 +45,7 @@ const Footer = () => {
                 MyBlog
               </span>
             </Link>
-            <p className="text-muted-foreground mb-6 max-w-sm">
-              Блог о веб-разработке, дизайне и современных технологиях. 
-              Делюсь знаниями и опытом с сообществом.
-            </p>
+            <p className="text-muted-foreground mb-6 max-w-sm">Тренировки по восстановлению и коррекции осанки, ТБС. https://t.me/VolgAreV55/ Миссия - научить людей управлять своим здоровьем, правильно двигаться, чтобы оставаться здоровым</p>
             <div className="flex items-center gap-3">
               {socialLinks.map(social => (
                 <a
