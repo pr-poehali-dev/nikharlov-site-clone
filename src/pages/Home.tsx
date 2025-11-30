@@ -5,6 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import Icon from '@/components/ui/icon';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ScrollToTop from '@/components/ScrollToTop';
 import { blogPosts } from '@/data/blogPosts';
 
 const Home = () => {
@@ -153,6 +154,7 @@ const Home = () => {
       </section>
 
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };

@@ -5,6 +5,7 @@ import { Card } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ScrollToTop from '@/components/ScrollToTop';
 import { blogPosts } from '@/data/blogPosts';
 
 const Post = () => {
@@ -118,6 +119,7 @@ const Post = () => {
       </article>
 
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };

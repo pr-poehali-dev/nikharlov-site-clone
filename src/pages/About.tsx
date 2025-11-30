@@ -3,6 +3,7 @@ import { Badge } from '@/components/ui/badge';
 import Icon from '@/components/ui/icon';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ScrollToTop from '@/components/ScrollToTop';
 
 const About = () => {
   const skills = [
@@ -98,6 +99,7 @@ const About = () => {
       </div>
 
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };

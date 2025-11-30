@@ -7,6 +7,7 @@ import { Input } from '@/components/ui/input';
 import Icon from '@/components/ui/icon';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ScrollToTop from '@/components/ScrollToTop';
 import { blogPosts } from '@/data/blogPosts';
 
 const Blog = () => {
@@ -170,6 +171,7 @@ const Blog = () => {
       </div>
 
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };
