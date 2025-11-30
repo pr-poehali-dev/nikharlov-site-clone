@@ -4,6 +4,7 @@ import { Badge } from '@/components/ui/badge';
 import { Card } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { blogPosts } from '@/data/blogPosts';
 
 const Post = () => {
@@ -115,6 +116,8 @@ const Post = () => {
           </div>
         </div>
       </article>
+
+      <Footer />
     </div>
   );
 };
